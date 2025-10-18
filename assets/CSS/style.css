@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    padding: 20px 14px;
+    background-color: rgba(128, 100, 0, 0.459); ;
+}
+
+.navbar{
+    display: flex;
+    /* padding: 12px 14px; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-brand{
+    margin-left: -100px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.nav-item .nav-link.active{
+    color: red;
+}
+
+.nav-brand span{
+    color: red;
+}
+
+.navbar .navbar-nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-item .nav-link{
+    font-family: "Bayon", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.nav-item .nav-link:hover{
+    background-color: red;
+}
+
+.account-btn{
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+}
+
+.Login-btn,
+.Register-btn{
+    color:#fff;
+    font-family: "Bayon", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.Login-btn{
+    padding: 10px 12px;
+    border: 2px solid #fff;
+    background-color: green;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.Register-btn{
+    background-color: red;
+    padding: 10px 12px;
+     border: 2px solid #fff;
+     transition-duration: 0.3s;
+      border-radius: 20px;
+     
+}
+
+.Login-btn:hover{
+    color: green;
+    background-color: #fff;
+}
+
+.Register-btn:hover{
+    color: red;
+    background-color: #fff;
+}
+
